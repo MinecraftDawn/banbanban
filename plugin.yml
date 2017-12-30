@@ -1,0 +1,17 @@
+name: banbanban
+main: banbanban.main
+version: 0.1
+
+commands:
+  sban:
+    description: "強制剔除玩家"
+  sunban:
+    description: "解除強制剔除"
+    
+permissions:
+  sban:
+    description: 允許使用/sban
+    default: op
+  sunban:
+    description: 允許使用/sunban
+    default: op
